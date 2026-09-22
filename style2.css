@@ -1,0 +1,162 @@
+#hero {
+    background-image: url("/goal-images/hero-background.png");
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.merriweather-sans-font {
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+@media(max-width:400px) {
+    .headshot {
+        height: 100px;
+    }
+}
+
+.subheading1 {
+    font-size: 16.8pt;
+    color: #ffedf2;
+}
+.subheading {
+    font-size: 19.6pt;
+    color: #d6336c;
+}
+
+.heading-color {
+    color: #d6336c;
+}
+
+.btn-custom {
+    color: #ffedf2;
+    font-size: 16pt;
+    border-color: #ffedf2;
+}
+
+.btn-custom:hover {
+    background-color: #ffedf2;
+    color: #d6336c;
+}
+
+.btn-custom:active,
+.btn-custom:focus:active {
+    color: #ffedf2 ;
+    background-color: #d6336c ;
+    border-color: #d6336c;
+}
+
+.btn-custom-header {
+    color: #d6336c;
+    border-color: #ffedf2;
+}
+
+.btn-custom-header:hover {
+    background-color: #ffedf2;
+    color: #d6336c;
+}
+
+.btn-custom-header:active,
+.btn-custom-header:focus:active {
+    color: #ffedf2;
+    background-color: #d6336c;
+    border-color: #d6336c;
+}
+
+.writeup {
+    font-size: 15.7pt;
+}
+
+.contact-icons{
+    color: #d6336c;
+
+}
+
+.project-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #eeeeee;
+}
+
+.project-card .card-img-top {
+    height: 160px;
+    object-fit: cover;
+}
+
+.project-card .card-body {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card .card-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.btn-outline-project {
+    color: #d6336c;
+    border: 1px solid #d6336c;
+    border-radius: 6px;
+    padding: 6px 20px;
+    font-weight: 500;
+}
+
+.btn-outline-project:hover {
+    background-color: #d6336c;
+    color: #fff;
+}
+
+.skill-label {
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    color: #212529;
+    margin-bottom: 8px;
+}
+
+.skill-percent {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.progress {
+    height: 6px;
+    background-color: #dcdcdc;
+    border-radius: 4px;
+}
+
+.progress-bar {
+    background-color: #d6336c;
+    border-radius: 4px;
+}
+
+.icon-circle {
+    height: auto;
+    width: auto;
+    background-color: #d6336c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+}
+
+.contact-text {
+    font-weight: 700;
+    color: #212529;
+    margin: 0;
+}
